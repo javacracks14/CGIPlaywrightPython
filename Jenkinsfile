@@ -33,14 +33,4 @@ pipeline{
       }
     }
   }
-  success{
-    echo 'All Pipeline stages completed successfuly'
-  }
-  failure{
-    echo ' Pipeline Failed'
-  }
 }
-
-
-
-  
