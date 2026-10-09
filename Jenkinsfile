@@ -29,7 +29,7 @@ pipeline{
     }
     stage('Run Automation Tests'){
       steps{
-        batc 'python -m pytest tests -v -s'
+        bat 'python -m pytest tests -v -s'
       }
     }
   }
